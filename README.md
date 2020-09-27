@@ -47,7 +47,7 @@ See the full analysis in the Jupyter Notebook or review this presentation.
 
 For additional info, contact Alison Peebles Madigan at alison.peeblesmadigan@flatironschool.com
 
-### Repository Structure
+### Repository Contents
 
 Maybe include a link of each reepository section, and a brief sentence explaining the purpose of it
 * data
