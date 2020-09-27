@@ -57,7 +57,7 @@ Maybe include a link of each reepository section, and a brief sentence explainin
 * animal_shelter_needs_analysis.ipynb
 
 
-#### Notes:
+### Notes: (Remove Later)
 
 * Most people stop reading at the README
 * Be sure to include a visualization or two here 
