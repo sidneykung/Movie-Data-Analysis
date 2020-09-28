@@ -1,10 +1,4 @@
-### Phase 1 Project [Title: Movie Data Analysis]
-
-
-### Intro & Contextualization
-
-Why does this project matter? (for this business case)
-(I think this can be combined the with below section)
+### Phase 1 Project: Movie Data Analysis
 
 ### Overview
 
