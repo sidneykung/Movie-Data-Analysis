@@ -51,7 +51,7 @@ Further analyses could yield additional insights on producing popular movies:
 
 ## For More Information
 
-See the [full analysis](https://github.com/sidneykung/Movie-Data-Analysis/blob/master/final_analysis.ipynb) Jupyter Notebook, named `full_analysis.ipynb` or review the [presentation](link_here) named `presentation.pdf`, both located in this repository.
+See the [full analysis](https://github.com/sidneykung/Movie-Data-Analysis/blob/master/final_analysis.ipynb) in a Jupyter Notebook, named `full_analysis.ipynb` or review the [presentation](link_here) named `presentation.pdf`, both located in this repository.
 
 For additional info, contact Sidney Kung at sidneyjkung@gmail.com
 
