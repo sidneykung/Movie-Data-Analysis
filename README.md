@@ -1,6 +1,6 @@
 ## Microsoft Movie Analysis
 
-![microsoft](./images/m_logo.png)
+![microsoft](./images/microsoft_logo.png)
 
 ## Overview
 
@@ -8,7 +8,7 @@ This project analyzes the measurements of popularity for movies released in thea
 
 ## Business Problem
 
-![movie](./images/banner.jpg)
+![movie](./images/movie_banner.jpg)
 
 Microsoft has decided to create a new movie studio, and the company wants to gain a better understanding of the movie industry. The task is to explore what type of films succeed at the box office. Key findings should be translated to actionable insights that the head of Microsoft’s new movie studio can use to help decide what type of films to create.
 
