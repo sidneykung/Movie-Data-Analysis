@@ -8,13 +8,12 @@ What data was used to reach your findings?
 
 I used movie datasets from the `zippedData` folder.
 
-* Box Office Mojo
-    * bom.movie_gross
 * IMDB
-    * imdb.title.basics
-    * imdb.title.ratings
-* Rotten Tomatoes
+    * imdb.title.basics.csv.gz
+    * imdb.title.ratings.csv.gz
 * TheMovieDB.org
+   * tmdb.movies.csv.gz
+   * tn.movie_budgets.csv.gz
 
 Include any other key information about what you used to complete this project.
 * Maybe that you used Python and its built-in library Pandas
