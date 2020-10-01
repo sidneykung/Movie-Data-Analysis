@@ -2,18 +2,22 @@
 
 ### Overview
 
-Summary:
+This project analyzes the measurements of popularity for movies released in theaters in the past ten years, using data collected from [IMDB](imdb.com) and [theMovieDB](https://www.themoviedb.org/). Descriptive analysis of this data shows that movies should be release during the early summer or winter, with a budget ranging between 10 million and 75 million dollars. Additionally, the studio’s first films should be within the Music, Documentary, and Biography genres. Microsoft can use this analysis to open a movie production studio and successfully enter the industry.
 
 ### Business Problem
 Microsoft has decided to create a new movie studio, and the company wants to gain a better understanding of the movie industry. The task is to explore what type of films succeed at the box office. Key findings should be translated to actionable insights that the head of Microsoft’s new movie studio can use to help decide what type of films to create.
 
-### Methods
-"This project uses descriptive analysis, including description of trends over time. This provides a useful overview of AAC's typical intakes and outcomes to identify resource needs."
+**Business Questions:**
+I will be investigating three main questions through exploratory data analysis.
+1.	What time of the year are movies the most popular?
+2.	What is an appropriate budget range for popular movies?
+3.	What is the most popular movie genre?
 
-What data was used to reach your findings?
-* Link which datasets were included in this study
+### Data & Methods
 
-I used movie datasets from the `zippedData` folder.
+This analysis performs descriptive analysis on the dataset `all_movies`, which was compiled from four subset files of data from the websites IMDB.com and theMovieDB.org. Each subset contained useful information about measures of popularity for movies. I cleaned the subsets before merging them to `all_movies` and imported the final dataset here for analysis. The data cleaning notebook can be found in this repository under the name `data_cleaning.ipynb` or click [here](https://github.com/sidneykung/Movie-Data-Analysis/blob/master/data_cleaning.ipynb). 
+
+Subsets used can be found in the `zippedData` folder in this repository.
 * IMDB
     * imdb.title.basics.csv.gz
     * imdb.title.ratings.csv.gz
@@ -21,39 +25,32 @@ I used movie datasets from the `zippedData` folder.
    * tmdb.movies.csv.gz
    * tn.movie_budgets.csv.gz
 
-Include any other key information about what you used to complete this project.
-* Maybe that you used Python and its built-in library Pandas
-
 ### Results
+[add visualizations here]
 
-Include a summary of your findings
-Any visualizations would go here
+-	**Release movies during the early summer and winter.** From April to July and October to November, there is a record of drastically increasing average domestic and worldwide gross.
+-	**Expect a production budget between 10 million and 75 million dollars.** On average, this range has the highest Return on Investment (ROI).
+-	**Microsoft Studio’s first films should be within the Music, Documentary, and Biography genres.** Across IMDB and theMovieDB, these genres have ranked the highest among user reviews.
+-	**These first films should range between 75 and 125 minutes.** High revenue movies typically stayed in this range, with varying production budgets.
 
 ### Next Steps
 
-"Further analyses could yield additional insights to further improve operations at AAC:"
+Further analyses could yield additional insights on producing popular movies:
+-	Webscraping data from **popular streaming services**, such as Netflix, could reveal whether theater release or streaming release is more profitable.
+-	Additional data on each movie’s **gross in other specific countries** could provide clarification on why average domestic gross and average worldwide gross is parallel each month of the year.
+-	This analysis included movie data from 2010-2020. Narrowing down to a closer look at the data from the last 5 years, or even expanding investigation to 20 years in the past could provide more information about **year-based trends**.
+-	Webscraping review data with **written text reviews** could introduce the characteristics of each genre that general audiences like or dislike.
 
 ### For More Information
 
-See the full analysis in the Jupyter Notebook or review this presentation.
+See the [full analysis](https://github.com/sidneykung/Movie-Data-Analysis/blob/master/final_analysis.ipynb) Jupyter Notebook, named `full_analysis.ipynb` or review the [presentation](link_here) named `presentation.pdf`, both located in this repository.
 
-For additional info, contact Alison Peebles Madigan at alison.peeblesmadigan@flatironschool.com
+For additional info, contact Sidney Kung at sidneyjkung@gmail.com
 
 ### Repository Contents
 
-Maybe include a link of each reepository section, and a brief sentence explaining the purpose of it
 * data
 * images
 * README.md
 * Animal_Shelter_Needs_Presentation.pdf
 * animal_shelter_needs_analysis.ipynb
-
-
-### Notes: (Remove Later)
-
-* Most people stop reading at the README
-* Be sure to include a visualization or two here 
-* Should also include links to find all relevant information
-
-#### Example of using a link in markdown:
-We recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
