@@ -1,10 +1,15 @@
 ## Microsoft Movie Analysis
 
+![microsoft](./images/microsoft_logo.png)
+
 ## Overview
 
 This project analyzes the measurements of popularity for movies released in theaters in the past ten years, using data collected from [IMDB](imdb.com) and [theMovieDB](https://www.themoviedb.org/). Descriptive analysis of this data shows that movies should be release during the early summer or winter, with a budget ranging between 10 million and 75 million dollars. Additionally, the studio’s first films should be within the Music, Documentary, and Biography genres. Microsoft can use this analysis to open a movie production studio and successfully enter the industry.
 
 ## Business Problem
+
+![movie](./images/movie_banner.jpg)
+
 Microsoft has decided to create a new movie studio, and the company wants to gain a better understanding of the movie industry. The task is to explore what type of films succeed at the box office. Key findings should be translated to actionable insights that the head of Microsoft’s new movie studio can use to help decide what type of films to create.
 
 **Business Questions:**
@@ -15,7 +20,9 @@ I will be investigating three main questions through exploratory data analysis.
 
 ## Data & Methods
 
-This analysis performs descriptive analysis on the dataset `all_movies`, which was compiled from four subset files of data from the websites IMDB.com and theMovieDB.org. Each subset contained useful information about measures of popularity for movies. I cleaned the subsets before merging them to `all_movies` and imported the final dataset here for analysis. The data cleaning notebook can be found in this repository under the name `data_cleaning.ipynb` or click [here](https://github.com/sidneykung/Movie-Data-Analysis/blob/master/data_cleaning.ipynb). 
+This analysis performs descriptive analysis on the dataset `all_movies`, which was compiled from four subset files of data from the websites IMDB.com and theMovieDB.org. Each subset contained useful information about measures of popularity for movies. I cleaned the subsets before merging them to the dataframe `all_movies` and imported it into the final dataset to `final_analysis.ipynb` to use for analysis.
+
+The data cleaning notebook can be found in this repository under the name `data_cleaning.ipynb` or click [here](https://github.com/sidneykung/Movie-Data-Analysis/blob/master/data_cleaning.ipynb). 
 
 Subsets used can be found in the `zippedData` folder in this repository.
 * IMDB.com
@@ -51,7 +58,7 @@ Further analyses could yield additional insights on producing popular movies:
 
 ## For More Information
 
-See the [full analysis](https://github.com/sidneykung/Movie-Data-Analysis/blob/master/final_analysis.ipynb) in a Jupyter Notebook, named `full_analysis.ipynb` or review the [presentation](link_here) named `presentation.pdf`, both located in this repository.
+See the [full analysis](https://github.com/sidneykung/Movie-Data-Analysis/blob/master/final_analysis.ipynb) in a Jupyter Notebook, named `full_analysis.ipynb`, located in this repository.
 
 For additional info, contact Sidney Kung at sidneyjkung@gmail.com
 
