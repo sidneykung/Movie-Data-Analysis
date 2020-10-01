@@ -57,8 +57,11 @@ For additional info, contact Sidney Kung at sidneyjkung@gmail.com
 
 ## Repository Contents
 
-* data
-* images
-* README.md
-* Animal_Shelter_Needs_Presentation.pdf
-* animal_shelter_needs_analysis.ipynb
+* `visualizations`: folder with all generated visualizations from 'final_analysis.ipynb'
+* `zippedData`: folder with subset files used in 'final_analysis.ipynb'
+* `.gitignore`: file used to hide nonessential files
+* `README.md`: text file that's previewed on github repository
+* `all_movies_df.csv`: final dataframe that was created by merging and cleaning in 'data_cleaning.ipynb'
+* `data_cleaning.ipynb`: notebook where subset data was merged and cleaned before saving to `all_movies_df.csv`
+* `final_analysis.ipynb`: final notebook with full analysis
+* `presentation.pdf`: 
