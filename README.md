@@ -29,11 +29,11 @@ Subsets used can be found in the `zippedData` folder in this repository.
 
 Among many other results, I found that movies earn the highest worldwide gross during the early summer, between April and July. There is also another ~146% increase spike between October and November.
 
-![avg_gross](/visualizations/avg_gross.png)
+![avg_gross](./visualizations/avg_gross.png)
 
 Additionally, by analyzing the placement of low, medium, and high revenue movies on the ‘Average Budget According to Runtime’ graph, it can be understood that movies with runtimes less than an hour don’t make a high revenue. 
 
-![avg_runtime](/visualizations/avg_budget_runtime.png)
+![avg_runtime](./visualizations/avg_budget_runtime.png)
 
 ## Conclusions
 -	**Release movies during the early summer and winter.** From April to July and October to November, there is a record of drastically increasing average domestic and worldwide gross.
