@@ -3,11 +3,17 @@
 ### Overview
 
 Summary:
+
+### Business Problem
+Microsoft has decided to create a new movie studio, and the company wants to gain a better understanding of the movie industry. The task is to explore what type of films succeed at the box office. Key findings should be translated to actionable insights that the head of Microsoft’s new movie studio can use to help decide what type of films to create.
+
+### Methods
+"This project uses descriptive analysis, including description of trends over time. This provides a useful overview of AAC's typical intakes and outcomes to identify resource needs."
+
 What data was used to reach your findings?
 * Link which datasets were included in this study
 
 I used movie datasets from the `zippedData` folder.
-
 * IMDB
     * imdb.title.basics.csv.gz
     * imdb.title.ratings.csv.gz
@@ -17,13 +23,6 @@ I used movie datasets from the `zippedData` folder.
 
 Include any other key information about what you used to complete this project.
 * Maybe that you used Python and its built-in library Pandas
-
-### Business Problem
-Microsoft sees all the big companies creating original video content, and they want to get in on the fun. They have decided to create a new movie studio, but the problem is they don’t know anything about creating movies. They have hired you to help them better understand the movie industry. Your team is charged with exploring what type of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
-
-### Methods
-"This project uses descriptive analysis, including description of trends over time. This provides a useful overview of AAC's typical intakes and outcomes to identify resource needs."
-
 
 ### Results
 
