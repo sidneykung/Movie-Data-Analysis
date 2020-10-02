@@ -20,7 +20,7 @@ I will be investigating three main questions through exploratory data analysis.
 
 ## Data & Methods
 
-This analysis performs descriptive analysis on the dataset `all_movies`, which was compiled from four subset files of data from the websites IMDB.com and theMovieDB.org. Each subset contained useful information about measures of popularity for movies. I cleaned the subsets before merging them to the dataframe `all_movies` and imported it into the final dataset to `final_analysis.ipynb` to use for analysis.
+This analysis performs descriptive analysis on the dataset `all_movies`, which was compiled from four subset files of data from the websites IMDB.com and theMovieDB.org. Each subset contained useful information about measures of popularity for movies. I cleaned the subsets before merging them to the dataframe `all_movies`, and imported it into the final dataset to `final_analysis.ipynb` to use for analysis.
 
 The data cleaning notebook can be found in this repository under the name `data_cleaning.ipynb` or click [here](https://github.com/sidneykung/Movie-Data-Analysis/blob/master/data_cleaning.ipynb). 
 
@@ -72,4 +72,4 @@ For additional info, contact Sidney Kung at sidneyjkung@gmail.com
 * `all_movies_df.csv`: final dataframe that was created by merging and cleaning in 'data_cleaning.ipynb'
 * `data_cleaning.ipynb`: notebook where subset data was merged and cleaned before saving to `all_movies_df.csv`
 * `final_analysis.ipynb`: final notebook with full analysis
-* `presentation.pdf`: 
+* `presentation.pdf`: presentation slides
