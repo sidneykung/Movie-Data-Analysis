@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project analyzes the measurements of popularity for movies released in theaters in the past ten years, using data collected from [IMDB](imdb.com) and [theMovieDB](https://www.themoviedb.org/). Descriptive analysis of this data shows that movies should be release during the early summer or winter, with a budget ranging between 10 million and 75 million dollars. Additionally, the studio’s first films should be within the Music, Documentary, and Biography genres. Microsoft can use this analysis to open a movie production studio and successfully enter the industry.
+This project analyzes the measurements of popularity for movies released in theaters in the past ten years, using data collected from [IMDB](imdb.com) and [theMovieDB](https://www.themoviedb.org/). Descriptive analysis of this data shows that movies should be released during the early summer or winter, with a budget ranging between 10 million and 75 million dollars. Additionally, the studio’s first films should be within the Music, Documentary, and Biography genres. Microsoft can use this analysis to open a movie production studio and successfully enter the industry.
 
 
 ## Business Problem
@@ -22,9 +22,9 @@ I will be investigating three main questions through exploratory data analysis.
 
 This analysis performs descriptive analysis on the dataset `all_movies`, which was compiled from four subset files of data from the websites IMDB.com and theMovieDB.org. Each subset contained useful information about measures of popularity for movies. I cleaned the subsets before merging them to the dataframe `all_movies`, and imported it into the final dataset to `final_analysis.ipynb` to use for analysis.
 
-The data cleaning notebook can be found in this repository under the name `data_cleaning.ipynb` or click [here](https://github.com/sidneykung/Movie-Data-Analysis/blob/master/data_cleaning.ipynb). 
+The data cleaning notebook can be found in this repository under the name `data_cleaning.ipynb`, or click [here](https://github.com/sidneykung/Movie-Data-Analysis/blob/master/data_cleaning.ipynb). 
 
-Subsets used can be found in the `zippedData` folder in this repository.
+Subsets can be found in the `zippedData` folder in this repository.
 * IMDB.com
     * imdb.title.basics.csv.gz
     * imdb.title.ratings.csv.gz
@@ -70,6 +70,6 @@ For additional info, contact Sidney Kung at sidneyjkung@gmail.com
 * `.gitignore`: file used to hide nonessential files
 * `README.md`: text file that's previewed on github repository
 * `all_movies_df.csv`: final dataframe that was created by merging and cleaning in 'data_cleaning.ipynb'
-* `data_cleaning.ipynb`: notebook where subset data was merged and cleaned before saving to `all_movies_df.csv`
-* `final_analysis.ipynb`: final notebook with full analysis
+* `data_cleaning.ipynb`: Jupyter notebook where subset data was merged and cleaned before saving to `all_movies_df.csv`
+* `final_analysis.ipynb`: final Jupyter notebook with full analysis
 * `presentation.pdf`: presentation slides
